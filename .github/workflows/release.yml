@@ -152,6 +152,7 @@ jobs:
 
   close-released-issues:
     needs: release
+    if: ${{ !contains(github.ref_name, '-tradecli.') }}
     runs-on: ubuntu-latest
     continue-on-error: true
     permissions:
@@ -279,6 +280,7 @@ jobs:
 
   update-latest-json:
     needs: release
+    if: ${{ !contains(github.ref_name, '-tradecli.') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write

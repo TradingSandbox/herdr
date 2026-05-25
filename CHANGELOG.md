@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## [0.6.2-tradecli.2] - 2026-05-25
+
+### Changed
+- Skipped upstream website and issue post-release jobs for TradingSandbox fork builds.
+
 ## [0.6.2-tradecli.1] - 2026-05-25
 
 ### Changed
