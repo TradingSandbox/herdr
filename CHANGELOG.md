@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## [0.6.2-tradecli.1] - 2026-05-25
+
+### Changed
+- Published the first TradingSandbox fork build for tradecli's Homebrew dependency stream.
+
 ## [0.6.2] - 2026-05-23
 
 ### Added
